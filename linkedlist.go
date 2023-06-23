@@ -24,6 +24,10 @@ func add(l *List, value int) {
 	curr.next = newNode
 }
 
+func remove_first(l *List) {
+	l.head = l.head.next
+
+}
 func remove_last(l *List) {
 
 	curr := l.head

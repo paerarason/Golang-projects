@@ -1,11 +1,11 @@
 package queue
 
-func pop(queue *Node) {
-
+func dequeue(queue *List) {
+	remove_last(queue)
 }
 
-func push(, num int) {
-
+func enqueue(queue *List, num int) {
+	add(queue, num)
 }
 
 func createQueue() *List {
