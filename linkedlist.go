@@ -1,4 +1,6 @@
-package queue
+package main
+
+import "fmt"
 
 //NODE
 type Node struct {
@@ -24,10 +26,14 @@ func add(l *List, value int) {
 	curr.next = newNode
 }
 
+/*
 func remove_first(l *List) {
 	l.head = l.head.next
 
 }
+
+
+*/
 func remove_last(l *List) {
 
 	curr := l.head
@@ -35,4 +41,12 @@ func remove_last(l *List) {
 		curr = curr.next
 	}
 	curr.next = nil
+}
+
+func Printlink(l *List) {
+	temp := l.head
+	for temp.next != nil {
+		fmt.Println(temp.data, " ")
+		temp = temp.next
+	}
 }

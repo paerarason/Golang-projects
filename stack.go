@@ -1,4 +1,4 @@
-package queue
+package main
 
 func pop(queue *List) {
 	remove_last(queue)
@@ -12,4 +12,8 @@ func createStack() List {
 	var list List
 	list.head = &Node{}
 	return list
+}
+
+func printstack(l *List) {
+	Printlink(l)
 }

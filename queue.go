@@ -1,5 +1,6 @@
-package queue
+package main
 
+/*
 func dequeue(queue *List) {
 	remove_last(queue)
 }
@@ -13,3 +14,4 @@ func createQueue() *List {
 	list.head = &Node{}
 	return &list
 }
+*/
