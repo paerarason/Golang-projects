@@ -18,6 +18,13 @@ func main() {
 	printstack(&list)
 	arr := []int{78, 9, 45, 56, 14}
 	heapsort(&arr, 5)
-	fmt.Print(arr)
+	fmt.Println(arr)
+	var p *int
+	var num int 
+	num=9
+	p=&num
+	fmt.Println(num)
+	fmt.Println(p)
+	fmt.Println(*p)
 
 }
