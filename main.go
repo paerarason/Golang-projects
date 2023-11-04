@@ -4,9 +4,10 @@ import (
 	"fmt"
 )
 
+
 func main() {
 	fmt.Print("linked list code\n")
-
+/*
 	list := createStack()
 	push(&list, 45)
 	pop(&list)
@@ -26,5 +27,10 @@ func main() {
 	fmt.Println(num)
 	fmt.Println(p)
 	fmt.Println(*p)
-
+	*/
+	arr:=[] int{78, 9, 45, 56, 14}
+	i,j:=TwoSum(arr,9)
+    fmt.Println(i,j)
+	fmt.Println(arr)
+    
 }
