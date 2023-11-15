@@ -44,13 +44,24 @@ func main() {
 	_y="paerarason"
 	x+=_y
 	const peru int =90
-	var input int 
-	fmt.Scanf("%d",&input)
-	fmt.Println(input*2)
+	//var input int 
+	//fmt.Scanf("%d",&input)
+	//fmt.Println(input*2)
 
 	//exercies
-	fmt.Println(Celsius(99.1))
-	fmt.Println(feet(4500))
+	//fmt.Println(Celsius(99.1))
+	//fmt.Println(feet(4500))
+
+	// for loops 
+	for i:=0;i<10;i++{
+		if i&1==0{
+			fmt.Print(i)
+		}
+		
+	}
+
+
+
 }
 
 
