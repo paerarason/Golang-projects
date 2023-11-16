@@ -32,7 +32,7 @@ func main() {
 	i,j:=TwoSum(arr,9)
     fmt.Println(i,j)
 	fmt.Println(arr)
-	*/
+	
 	fmt.Println("1+1",1.0+2.5)
 	fmt.Println("Paerarason")
 	fmt.Println("Paerarason"[1])
@@ -53,15 +53,8 @@ func main() {
 	//fmt.Println(feet(4500))
 
 	// for loops 
-	for i:=0;i<10;i++{
-		if i&1==0{
-			fmt.Print(i)
-		}
-		
-	}
-
-
-
+*/
+	
 }
 
 
