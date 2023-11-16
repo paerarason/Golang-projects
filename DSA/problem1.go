@@ -50,7 +50,5 @@ func ProductOfItself( arr[] int) []int {
 //
 
 func BUYStocks(){
-   
-
-
+	
 }
