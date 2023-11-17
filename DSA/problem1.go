@@ -66,7 +66,3 @@ func climbStairs(n int) int {
     }
     return climbStairs(n-1)+climbStairs(n-2)
 }
-=======
-	
-}
->>>>>>> bb5d709310b261de4094c9167282deec30b185a4
