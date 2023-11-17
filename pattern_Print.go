@@ -45,3 +45,13 @@ func Inverted_Pyramid(num int) {
 	}
 
 }
+
+
+func climbStairs(n int) int {
+    if n==0{
+        return 1
+    }else if n<0{
+       return 0
+    }
+    return climbStairs(n-1)+climbStairs(n-2)
+}
