@@ -19,7 +19,6 @@ func TwoSum(target int, arr[] int) (int , int) {
 }
 
 //Product of Array except itself
-
 func ProductOfItself( arr[] int) []int {
 	right:=arr[0:]
 	left:=arr[0:]
@@ -47,16 +46,26 @@ func ProductOfItself( arr[] int) []int {
 
 
 //Best Time to Buy and Sell Stock
-//
-
 func BUYStocks(){
-<<<<<<< HEAD
    
 
 
 }
 
-//
+// second largest number 
+func SecondLarget(arr []int) int {
+	largest,second:=-1,0
+   for _,i:=range arr {
+	   if largest<i{
+		 largest,second=i,largest
+	   }
+   }
+   return second 
+}
+
+
+
+
 
 func climbStairs(n int) int {
     if n==0{
@@ -66,3 +75,5 @@ func climbStairs(n int) int {
     }
     return climbStairs(n-1)+climbStairs(n-2)
 }
+
+//
