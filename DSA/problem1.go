@@ -77,3 +77,24 @@ func climbStairs(n int) int {
 }
 
 //
+func check(str rune,m int ,S string ) bool {
+    for i:=0;i<m;i++{
+         if S[i]!=str{
+            return true 
+		 }
+	}
+	return false 
+}
+
+
+
+func LongestSubstring(S string ) string {
+	max_length:=""
+     for i:=0;i<len(S);i++{
+         
+		 if check(rune(S[i]),i,S){
+
+		 }
+	 }
+
+}
