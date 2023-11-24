@@ -1,5 +1,8 @@
 package DSA
-import "sort"
+import (
+	"sort" 
+     "errors"
+)
 //Check if pair with given Sum exists in Array (Two Sum)
 func TwoSum(target int, arr[] int) (int , int) {
      sort.Ints(arr)
@@ -76,25 +79,11 @@ func climbStairs(n int) int {
     return climbStairs(n-1)+climbStairs(n-2)
 }
 
-//
-func check(str rune,m int ,S string ) bool {
-    for i:=0;i<m;i++{
-         if S[i]!=str{
-            return true 
-		 }
+
+
+func Divide(a,b float32)(float32,error){
+	if b==0{
+	   return 0,errors.New("cannot be divided")
 	}
-	return false 
-}
-
-
-
-func LongestSubstring(S string ) string {
-	max_length:=""
-     for i:=0;i<len(S);i++{
-         
-		 if check(rune(S[i]),i,S){
-
-		 }
-	 }
-
+	return a/b, nil
 }

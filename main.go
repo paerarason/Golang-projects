@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/paerarason/go-stack/DSA"
 )
 
 
@@ -54,7 +55,8 @@ func main() {
 
 	// for loops 
 */
-	
+
+   fmt.Println(DSA.Divide(2.5,0.0))	
 }
 
 
