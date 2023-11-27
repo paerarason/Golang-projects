@@ -12,3 +12,5 @@ func PalindromNumber(num int ) bool {
 	}
 
 return  false }
+
+

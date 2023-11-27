@@ -56,7 +56,12 @@ func main() {
 	// for loops 
 */
 
-   fmt.Println(DSA.Divide(2.5,0.0))	
+   //fmt.Println(DSA.Divide(2.5,0.0))
+   arr1:=[]int {1,3,4,5,6,7}
+   arr2:=[]int {2,5,6,7,8,8,9}
+   fmt.Println(DSA.MergeTwoArray(arr1,arr2))   
+      
+   
 }
 
 
