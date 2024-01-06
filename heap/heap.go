@@ -1,6 +1,6 @@
-package main
+package heap
 
-func heapify(arr *[]int, n int, i int) {
+func Heapify(arr *[]int, n int, i int) {
 	l := 2*i + 1
 	r := 2*i + 2
 	largest := i
@@ -17,10 +17,11 @@ func heapify(arr *[]int, n int, i int) {
 
 }
 
-func heapsort(arr *[]int, n int) {
+
+func Heapsort(arr *[]int, n int) {
 	// Build a max heap
 	for i := n / 2 - 1; i >= 0; i-- {
-		heapify(arr, n, i)
+		Heapify(&arr, n, i)
 	}
 
 	// Extract elements one by one
@@ -28,6 +29,6 @@ func heapsort(arr *[]int, n int) {
 		(*arr)[0], (*arr)[i] = (*arr)[i], (*arr)[0]
 
 		// Call heapify on the reduced heap
-		heapify(arr, i, 0)
+		Heapify(arr, i, 0)
 	}
 }
